@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Meta tags básicos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hotel Kin - Tu destino perfecto para unas vacaciones inolvidables">
+    
+    <!-- Meta tags para PWA -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#01383d">
+    
+    <!-- Meta tags para iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Hotel Kin">
+    
+    <!-- Iconos para iOS -->
+    <link rel="apple-touch-icon" href="/img/Hotel Kin.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/Hotel Kin.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/Hotel Kin.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="/img/Hotel Kin.png">
+    
+    <!-- Icono favicon -->
+    <link rel="icon" type="image/png" href="/img/Hotel Kin.png">
+    
+    <!-- Resto de tus enlaces CSS y otros recursos -->
+    <link rel="stylesheet" href="style.css">
+    <title>Hotel Kin</title>
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <img src="/img/Hotel Kin.png" alt="Hotel Kin Logo" class="loading-logo">
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+    
+    <header class="hero-section">
+        <nav>
+            <div class="logo">Hotel Kin</div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#habitaciones">Habitaciones</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Bienvenido a Hotel Kin</h1>
+            <p>TU PARAÍSO FRENTE AL MAR</p>
+            <a href="#" class="btn-reservar">Reservar Ahora</a>
+        </div>
+    </header>
+
+    <section class="features">
+        <h2>Experiencias Inolvidables</h2>
+        <div class="feature-cards">
+            <div class="card">
+                <img src="/img/beach.jpg" alt="Playa">
+                <h3>Playa Privada</h3>
+                <p>Disfruta de nuestra exclusiva playa privada con vistas impresionantes.</p>
+            </div>
+            <div class="card">
+                <img src="/img/room.png" alt="Habitación">
+                <h3>Habitaciones de Lujo</h3>
+                <p>Relájate en nuestras cómodas y lujosas habitaciones con vista al mar.</p>
+            </div>
+            <div class="card">
+                <img src="/img/spa.jpg" alt="Spa">
+                <h3>Spa de Clase Mundial</h3>
+                <p>Revitaliza tu cuerpo y mente en nuestro spa de clase mundial.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="chat-container" id="chatContainer">
+        <div class="chat-header">
+            <h3>XAMAN</h3>
+            <button id="minimizeChat">−</button>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot">
+                Hola soy "Xaman" el Asistente Virtual del Hotel Kin. <p>¿En qué puedo ayudarte?</p>
+            </div>
+        </div>
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Escribe tu mensaje...">
+                <button id="sendMessage">Enviar</button>
+            </div>
+        </div>
+
+        <div class="chat-button" id="openChat">
+            <span>💬</span>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+        <script src="loading.js"></script>
+</body>
+</html>

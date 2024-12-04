@@ -1,0 +1,101 @@
+{
+    "name": "Hotel Kin ChatBot",
+    "short_name": "Hotel Kin",
+    "description": "Chatbot asistente virtual para Hotel Kin",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#01383d",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/img/Hotel Kin.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/img/Hotel Kin.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/img/Hotel Kin.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/img/Hotel Kin.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/img/Hotel Kin.png",
+            "sizes": "152x152",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/img/Hotel Kin.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/img/Hotel Kin.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/img/Hotel Kin.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/img/hero-bg.jpeg",
+            "sizes": "1280x720",
+            "type": "image/jpeg",
+            "form_factor": "wide",
+            "label": "Vista principal del Hotel Kin"
+        },
+        {
+            "src": "/img/beach.jpg",
+            "sizes": "1280x720",
+            "type": "image/jpeg",
+            "label": "Playa privada"
+        },
+        {
+            "src": "/img/room.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "label": "Habitaciones de lujo"
+        },
+        {
+            "src": "/img/spa.jpg",
+            "sizes": "1280x720",
+            "type": "image/jpeg",
+            "label": "Spa de clase mundial"
+        }
+    ],
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "shortcuts": [
+        {
+            "name": "Reservar",
+            "url": "/index.html#reservar",
+            "description": "Hacer una reservación"
+        },
+        {
+            "name": "Chat",
+            "url": "/index.html#chat",
+            "description": "Abrir chat con Xaman"
+        }
+    ]
+}
